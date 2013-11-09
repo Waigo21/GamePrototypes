@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{D05E7CD8-CFB8-D90F-E408-EF5F5A628A69}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_0;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Core\BuoyancyForce.cs" />
+     <Compile Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Core\FluidVolume.cs" />
+     <Compile Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Examples\Android\QuitManager.cs" />
+     <Compile Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Examples\LevelOfDetail\ObjectCreator.cs" />
+     <Compile Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Examples\LevelOfDetail\QualityController.cs" />
+     <Compile Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Examples\LevelOfDetail\Viewer.cs" />
+     <Compile Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Examples\Ocean\Ocean.cs" />
+     <Compile Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Examples\Shared Assets\Scripts\CameraMovement.cs" />
+     <Compile Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Examples\Shared Assets\Scripts\MouseForce.cs" />
+     <Compile Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Examples\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
+     <Compile Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Examples\Standard Assets\Water (Pro Only)\Water3\Sources\Scripts\Water3.cs" />
+     <Compile Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Examples\Standard Assets\Water (Pro Only)\Water3\Sources\Scripts\Water3Float.cs" />
+     <Compile Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Examples\Standard Assets\Water (Pro Only)\Water3\Sources\Scripts\Water3Manager.cs" />
+     <Compile Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Examples\Standard Assets\Water (Pro Only)\Water3\Sources\Scripts\Water3UnderwaterEffect.cs" />
+     <Compile Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Examples\Water3\Water3FluidVolume.cs" />
+     <Compile Include="Assets\_SEA_MONSTER\_Scripts\CameraFocus.cs" />
+     <Compile Include="Assets\_SEA_MONSTER\_Scripts\GameController.cs" />
+     <Compile Include="Assets\_SEA_MONSTER\_Scripts\InputController.cs" />
+     <Compile Include="Assets\_SEA_MONSTER\_Scripts\SeaMonster.cs" />
+     <None Include="Assets\_Shaders\RimAlpha2.shader" />
+     <None Include="Assets\_Shaders\Diffse2Sided.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\_Shaders\KMDoubleSided02.shader" />
+     <None Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Examples\Standard Assets\Water (Pro Only)\Water3\Sources\Shaders\FX-Water3.shader" />
+     <None Include="Assets\_Shaders\KM_Rim.shader" />
+     <None Include="Assets\_Shaders\RimWithAlpha.shader" />
+     <None Include="Assets\_Shaders\KMDobuleSided.shader" />
+     <None Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Examples\Android\Note.txt" />
+     <None Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Documentation\Readme.txt" />
+     <None Include="Assets\_Shaders\DoubleSideTest01.shader" />
+     <None Include="Assets\_Shaders\AlphaDiffuseDoublesided 1.shader" />
+     <None Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Examples\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\_Shaders\RimTransparent.shader" />
+     <None Include="Assets\DoublesidedCutout\AlphaTest-DiffuseDoublesided.shader" />
+     <None Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Examples\Standard Assets\Water (Pro Only)\Water3\Sources\Shaders\Water3Underwater.shader" />
+     <None Include="Assets\_SEA_MONSTER\_OtherPlugins\Buoyancy Toolkit\Documentation\License.txt" />
+     <None Include="Assets\DoublesidedCutout\AlphaTest-DiffuseBack.shader" />
+     <None Include="Assets\_Shaders\KMRimDobuleSided-ok.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{9F0F60EF-FC67-8FEF-9AA1-A6FA560CB3A6}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
